@@ -1,0 +1,123 @@
+.nav-item:hover{
+  color: red;
+}
+#imageCarousel{
+    max-height: 400px; 
+}
+#imageCarousel .carousel-inner img {
+  max-height: 300px; /* Adjust the height of the images as per your needs */
+  max-width: 100%; /* Ensure the images maintain their aspect ratio */
+}
+.bi-house-heart , .bi-people ,.bi-person-check ,.bi-award,.bi-telephone-inbound,.bi-person-bounding-box{
+	font-size: large;
+}
+.c-item {
+  height: 480px;
+}
+.d-flex ul li a{
+	text-decoration: none;
+	text-transform: capitalize;
+	transition: all 0.3s ease;
+}
+.d-flex ul li a:hover{
+	color: red;
+	padding: 8px;
+}
+.sticky-top{
+	position: sticky;
+}
+.c-img {
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.6);
+}
+.bi-bookmark-star , .bi-check-circle , .bi-2-circle{
+  font-size: 24px;
+}
+.bi-person-raised-hand, .bi-brilliance , .bi-3-circle{
+  font-size: 24px;
+}
+.bi-phone-flip , .bi-file-earmark-spreadsheet ,.bi-1-circle{
+  font-size: 24px;
+}
+.footer{
+  background-color: #24262b;
+    padding: 70px 0;
+}
+.container1{
+	max-width: 1170px;
+	margin:auto;
+}
+.row1{
+	display: flex;
+	flex-wrap: wrap;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: #e91e63;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-link a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-link a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+.image-price{
+	width: 90px;
+	height: 90px;
+}

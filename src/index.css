@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Hide the vertical scrollbar */
+::-webkit-scrollbar {
+  width: 0;
+}
+
+/* Hide the horizontal scrollbar */
+::-webkit-scrollbar-thumb {
+  background: transparent;
+}
+
+/* Optional: You can also hide the scrollbar on Firefox */
+html {
+  scrollbar-width: none;
+}
+
+/* Optional: You can hide the scrollbar on Microsoft Edge */
+html {
+  -ms-overflow-style: none;
+}
+
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
